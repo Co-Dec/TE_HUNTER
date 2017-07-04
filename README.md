@@ -26,6 +26,7 @@ sudo apt-get install python
   
   - Bowtie2 : Needs to be installed in `/usr/remote/bin/`. In the future some option may be created to seek it in another directory.
   
+  - Cap3 : Needs to be installed in `/usr/remote/bin/`. In the future some option may be created to seek it in another directory.
 -----------------
 ## Install :
 First clone this repository on your computer.
