@@ -135,7 +135,7 @@ Number of threads you want to use.
 
 ## On a calcul cluster :
 
-Watch out this pipeline take a lot of ram especially when using blast :
+Watch out this pipeline takes a lot of ram especially when running blast :
 
 ```
 #!/bin/bash
