@@ -88,7 +88,7 @@ The file needs to be cleaned before the analysis. FASTQ format is madatory. I re
   
 The reference genome for the species studied. FASTA format is mandatory. The header line of each chromosome needs to be splitted by spaces, and in the first space the chromosome name is required. For example : 
 
-**>2L type=golden_path_region; loc=2L:1..23513712; ID=2L; dbxref=GB:AE014134,GB:AE014134,REFSEQ:NT_033779; MD5=b6a98b7c676bdaa11ec9521ed15aff2b; length=23513712; release=r6.16; species=Dmel;**
+** >2L type=golden_path_region; loc=2L:1..23513712; ID=2L; dbxref=GB:AE014134,GB:AE014134,REFSEQ:NT_033779; MD5=b6a98b7c676bdaa11ec9521ed15aff2b; length=23513712; release=r6.16; species=Dmel; **
 
   - Reference masked genome : (-mask)
   
