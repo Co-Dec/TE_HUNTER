@@ -151,6 +151,20 @@ hostname
 /pandata/dechaud/Ancien/TE_st_test/pipeline_tehunter.py -ref dmel-all-chromosome-r6.16.fasta -cores 16 -reads LibPE_DmGoth10-1.fastq -tebank dmel-all-transposon-r6.16.fasta -mask dmel-all-masked.fasta -workdir /pandata/dechaud/Dmen_verif/ -preftoremove DmGoth10-1
 ```
  
+## Output files :
+
+Two outputs are created by TE_HUNTER :
+
+`output.known.te_hunter.txt` : A CSV file :
+
+FBti / Family / Call / Contig1 / Contig2 / Chromosome / Position1 / Position2.
+
+Here you only need FBti and Call to know if a TE in the reference is found in you sequenced individual.
+
+And `output.unknown.te_hunter.txt` : De novo found insertions, they are not in the reference :
+
+CHR / FBti / Family / Position1 / Position2
+
 
 -----------------
 ## Contacts :
