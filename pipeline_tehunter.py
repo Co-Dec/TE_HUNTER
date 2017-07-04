@@ -770,13 +770,13 @@ def compare_les_restants(remain,sortie,te_desc):
 			ch2=contigue[1]
 			
 			if int(dep) > int(fin2)-10 and int(dep) - 90 > int(dep2) and int(dep)-150 < int(fin2) and ch==ch2 and dep not in used_contigs and dep2 not in used_contigs and fin not in used_contigs and fin2 not in used_contigs and contigue[4] == FBT:
-				sor.write("Supposition" +"\t"+str(ch)+"\t"+ FBT.replace("\n","") +"\t"+ str(ref[FBT.replace("\n","")].replace("\n",""))+ "\t" + str(dep2) + "\t" + str(fin)+"\n")
+				sor.write(str(ch)+"\t"+ FBT.replace("\n","") +"\t"+ str(ref[FBT.replace("\n","")].replace("\n",""))+ "\t" + str(dep2) + "\t" + str(fin)+"\n")
 				used_contigs.append(dep)
 				used_contigs.append(dep2)
 				used_contigs.append(fin)
 				used_contigs.append(fin2)
 			if int(fin) < int(dep2)+10 and int(fin) + 90 > int(dep2) and int(fin) + 150 < int(fin2) and ch == ch2 and dep not in used_contigs and dep2 not in used_contigs and fin not in used_contigs and fin2 not in used_contigs and FBT == contigue[4]:
-				sor.write("Supposition" +"\t"+str(ch)+"\t"+ FBT.replace("\n","") +"\t"+ str(ref[FBT.replace("\n","")].replace("\n",""))+ "\t" + str(dep) + "\t" + str(fin2)+"\n")
+				sor.write(str(ch)+"\t"+ FBT.replace("\n","") +"\t"+ str(ref[FBT.replace("\n","")].replace("\n",""))+ "\t" + str(dep) + "\t" + str(fin2)+"\n")
 				used_contigs.append(dep)					#FBTi00555735		 fbt					#Famille ref[fbt]
 				used_contigs.append(dep2)
 				used_contigs.append(fin)
